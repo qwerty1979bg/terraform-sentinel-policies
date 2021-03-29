@@ -3,7 +3,7 @@ import "tfrun"
 import "timezone"
 
 param token default "WbNKULOBheqV"
-param maintenance_days default ["Friday", "Saturday", "Sunday"]
+param maintenance_days default ["Monday", "Friday", "Saturday", "Sunday"]
 param timezone_id default "Europe/Sofia"
 
 tfrun_created_at = time.load(tfrun.created_at)
